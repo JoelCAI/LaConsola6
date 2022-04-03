@@ -8,13 +8,13 @@ namespace LaConsola6
 {
     public class Validador
     {
-        public static void TeclaControlShiftG()
+        public static void TeclaControlShiftF()
         {
             Console.Clear();
             ConsoleKeyInfo input;
             do
             {
-                Console.WriteLine(" Presione Control + Shift + G al mismo tiempo si desea salir.");
+                Console.WriteLine(" Presione Control + Shift + F al mismo tiempo si desea salir.");
 
                 input = Console.ReadKey(true);
 

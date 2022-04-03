@@ -10,7 +10,7 @@ namespace LaConsola6
     {
         public void MenuPrincipal()
         {
-            Validador.TeclaControlShiftG();
+            Validador.TeclaControlShiftF();
         }
 
         public void Iniciar()
