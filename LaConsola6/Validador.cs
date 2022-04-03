@@ -62,10 +62,10 @@ namespace LaConsola6
                 output.Append(".");
                 Console.WriteLine(output.ToString());
                 Console.WriteLine();
-            } while (input.Key != ConsoleKey.G || ((input.Modifiers & ConsoleModifiers.Control) != ConsoleModifiers.Control) 
+            } while (input.Key != ConsoleKey.F || ((input.Modifiers & ConsoleModifiers.Control) != ConsoleModifiers.Control) 
                     || ((input.Modifiers & ConsoleModifiers.Shift) != ConsoleModifiers.Shift));
 
-            if (input.Key == ConsoleKey.G || ((input.Modifiers & ConsoleModifiers.Control) == ConsoleModifiers.Control)
+            if (input.Key == ConsoleKey.F || ((input.Modifiers & ConsoleModifiers.Control) == ConsoleModifiers.Control)
                     || ((input.Modifiers & ConsoleModifiers.Shift) == ConsoleModifiers.Shift))
             {
                 Validador.Despedida();
